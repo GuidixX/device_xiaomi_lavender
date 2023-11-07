@@ -189,7 +189,10 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
-# Media
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Media Codecs
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
