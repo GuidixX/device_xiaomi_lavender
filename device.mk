@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# AOSP SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
