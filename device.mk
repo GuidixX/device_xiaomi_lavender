@@ -474,6 +474,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
+# IOS Emoji
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/overlay/IOSEmoji/NotoColorEmoji.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/NotoColorEmoji.ttf
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
