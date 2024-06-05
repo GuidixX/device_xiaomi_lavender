@@ -46,6 +46,11 @@ ro.vendor.perf.scroll_opt=true
 # Qcom
 ro.vendor.qti.va_aosp.support=1
 
+# QTI Mem Optimisation
+persist.vendor.sys.memplus.enable=false
+ro.vendor.qti.sys.fw.bg_apps_limit=30
+ro.vendor.qti.sys.fw.bservice_limit=60
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
