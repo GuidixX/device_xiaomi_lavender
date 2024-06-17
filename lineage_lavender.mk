@@ -17,6 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Craft Rom OS stuff
 CUSTOM_BUILD_TYPE := Official
 CUSTOM_MAINTAINER := GuidixX
+TARGET_ENABLE_BLUR := true
 
 # Product Properties
 PRODUCT_NAME := lineage_lavender
