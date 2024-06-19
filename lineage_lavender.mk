@@ -18,6 +18,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 CUSTOM_BUILD_TYPE := Official
 CUSTOM_MAINTAINER := GuidixX
 TARGET_ENABLE_BLUR := true
+TARGET_GCAM_SUPPORTED := false
 
 # Product Properties
 PRODUCT_NAME := lineage_lavender
