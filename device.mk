@@ -506,10 +506,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan_mac.bin \
     $(LOCAL_PATH)/configs/configs/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
-
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+# Include Private Signing Keys
+-include vendor/lineage-priv/keys/keys.mk
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
