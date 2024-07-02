@@ -5,6 +5,11 @@ ro.charger.enable_suspend=true
 # Blur
 ro.surface_flinger.supports_background_blur=1
 
+# Debug
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
+
 # LMKD
 ro.lmk.log_stats=false
 ro.config.low_ram=false
