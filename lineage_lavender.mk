@@ -28,7 +28,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 
 # Gapps
-WITH_GAPPS := true
+TARGET_GAPPS_SUPPORT := false
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
